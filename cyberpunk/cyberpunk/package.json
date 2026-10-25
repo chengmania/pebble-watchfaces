@@ -1,0 +1,53 @@
+{
+  "name": "cyberpunk",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "Arc Storm",
+    "uuid": "756dcbcf-c0d8-45eb-b38f-7548237a1ed7",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable",
+      "location",
+      "health"
+    ],
+    "messageKeys": [
+      "TEMP",
+      "WX_ICON",
+      "SUNRISE",
+      "SUNSET",
+      "UNIT",
+      "CLOCK_24H",
+      "THEME",
+      "TOP_1",
+      "TOP_2",
+      "TOP_3",
+      "BOT_1",
+      "BOT_2",
+      "BOT_3",
+      "RING_OUTER",
+      "RING_INNER",
+      "STEP_GOAL",
+      "ANIM_MODE",
+      "HR_PULSE",
+      "WX_REFRESH"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

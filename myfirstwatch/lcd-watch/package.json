@@ -1,0 +1,52 @@
+{
+  "name": "lcd-watch",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "LCD Watch",
+    "uuid": "50597127-9da5-4f1b-973c-fdb2c1235237",
+    "sdkVersion": "3",
+    "capabilities": [
+      "configurable",
+      "location",
+      "health"
+    ],
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "TEMP",
+      "UNIT",
+      "THEME",
+      "SLOT_A",
+      "SLOT_B",
+      "SLOT_C",
+      "SLOT_D",
+      "TZ_OFFSET",
+      "TZ_LABEL",
+      "TZ_ZONE",
+      "CLOCK_24H",
+      "BATTERY_BAR",
+      "TEMP_UNIT",
+      "SUNRISE",
+      "SUNSET",
+      "CONDITION",
+      "READY",
+      "SEPARATORS"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "epaper",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "InkSeg",
+    "uuid": "5a23dd2f-d15d-4fcb-98ae-2ed7f9c88748",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "TEMP",
+      "WX_ICON",
+      "SUNRISE",
+      "SUNSET",
+      "UNIT",
+      "CLOCK_24H",
+      "LEADING_ZERO",
+      "INVERT",
+      "SHOW_STEPS",
+      "SHOW_BATTERY",
+      "SHOW_HR",
+      "SHOW_WX",
+      "SHOW_SUN",
+      "WX_REFRESH",
+      "DATE_FMT",
+      "SHOW_WORLD",
+      "WORLD_OFFSET",
+      "WORLD_LABEL",
+      "FETCH"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_PLEX_28",
+          "file": "fonts/IBMPlexSansCondensed-SemiBold.ttf",
+          "characterRegex": "[ ,.:0-9A-Z\u00b0-]"
+        },
+        {
+          "type": "font",
+          "name": "FONT_PLEX_20",
+          "file": "fonts/IBMPlexSansCondensed-SemiBold.ttf",
+          "characterRegex": "[ ,.:0-9A-Z\u00b0-]"
+        },
+        {
+          "type": "font",
+          "name": "FONT_PLEX_16",
+          "file": "fonts/IBMPlexSansCondensed-SemiBold.ttf",
+          "characterRegex": "[ ,.:0-9A-Z\u00b0-]"
+        },
+        {
+          "type": "font",
+          "name": "FONT_PLEX_14",
+          "file": "fonts/IBMPlexSansCondensed-SemiBold.ttf",
+          "characterRegex": "[ ,.:0-9A-Z\u00b0-]"
+        }
+      ]
+    },
+    "capabilities": [
+      "configurable",
+      "location",
+      "health"
+    ]
+  }
+}
